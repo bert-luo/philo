@@ -1,0 +1,16 @@
+the framing of your scorecard and your design choices,
+- the rubric is what we truly care about, so we should design a reasonable harness to allow the judge to be able to exercise all its desired judgements within reason (ie ability to open a zip file should be granted)
+- modality support varies between models, so we engage with a suite of varying ones
+- How to measure reward hackability? 2 paths: 1) pre-built hacked examples, 2) adversarial agent tries to create high scoring, low quality outputs. measured by external judge or preference selection over golden. for the sake of project scope, went with 1) mechanically generated examples based on existing failure cases
+- added axis: verifiability of critieria, from empirical observation some criteria were just not verifiable despite harness patches
+- I would've wanted to add an axis for discriminatory power at all levels (broken vs working, good vs great, etc) if given more time but this would involve carefully curating multiple examples for each rubric
+- iterator design: single threaded prompt-optimization loop, no need to use specialized libs like gepa/adalflow
+
+what you learned running it on GDPval,
+- I've known for quite some time that LLM judges are generally unreliable OOTB and must be engineered. Since the responsibility of the judging task in this case is greater (more nuanced tasks, more modalities, etc), I expected worse performance which we got
+
+most importantly, an honest account of which rubrics you would trust as RL reward and which
+you would not, and which axes you believe generalize to rubrics you never saw.
+- reward hackability could generalize once the adversarial agent is developed
+- consistency is always important other wise learning signal is not stable/reliable
+- null vs golden gap behavior is case by case. (eg golden doesn't exist sometimes like unsolved math problem)

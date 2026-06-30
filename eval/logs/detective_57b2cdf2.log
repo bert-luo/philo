@@ -1,0 +1,11 @@
+
+=== private_detectives_and_investigators__57b2cdf2 ===
+  -- v0: evaluating 45 items (1 judge(s), repeats=2, protocol=none)
+     gold=0.983 worst_attack=0.907 margin=0.076 objective=0.072 attack_leaks=45 self_stdev=0.008 -> 45 defects
+     rewrote 8 criteria + grading protocol -> v1
+  -- v1: evaluating 45 items (1 judge(s), repeats=2, protocol=yes)
+     gold=0.898 worst_attack=1.0 margin=-0.102 objective=-0.112 attack_leaks=45 self_stdev=0.021 -> 45 defects
+     REJECT v1: objective -0.112 <= best v0 (0.072) — this rewrite backfired; reverting and stopping.
+  wrote package eval/var/rubric_packages/private_detectives_and_investigators__57b2cdf2/ (2 versions; best=v0)
+  wrote eval/var/results/rubric_scorecard.private_detectives_and_investigators__57b2cdf2.tsv  (2 rows)
+[cost] calls=232 prompt=1,482,582 completion=112,360 ~$0.5954

@@ -1,0 +1,17 @@
+
+=== producers_and_directors__e4f664ea ===
+  -- v0: evaluating 50 items (1 judge(s), repeats=2, protocol=none)
+     gold=0.921 worst_attack=0.789 margin=0.132 objective=0.131 attack_leaks=34 self_stdev=0.003 -> 38 defects
+     rewrote 8 criteria + grading protocol -> v1
+  -- v1: evaluating 50 items (1 judge(s), repeats=2, protocol=yes)
+     gold=0.942 worst_attack=0.766 margin=0.176 objective=0.175 attack_leaks=35 self_stdev=0.002 -> 38 defects
+     rewrote 8 criteria + grading protocol -> v2
+  -- v2: evaluating 50 items (1 judge(s), repeats=2, protocol=yes)
+     gold=0.899 worst_attack=0.655 margin=0.244 objective=0.237 attack_leaks=28 self_stdev=0.013 -> 32 defects
+     rewrote 8 criteria + grading protocol -> v3
+  -- v3: evaluating 50 items (1 judge(s), repeats=2, protocol=yes)
+     gold=0.937 worst_attack=0.749 margin=0.188 objective=0.184 attack_leaks=36 self_stdev=0.008 -> 37 defects
+     REJECT v3: objective 0.184 <= best v2 (0.237) — this rewrite backfired; reverting and stopping.
+  wrote package eval/var/rubric_packages/producers_and_directors__e4f664ea/ (4 versions; best=v2)
+  wrote eval/var/results/rubric_scorecard.producers_and_directors__e4f664ea.tsv  (4 rows)
+[cost] calls=554 prompt=4,806,778 completion=258,601 ~$1.7189

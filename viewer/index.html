@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GDPval Task Viewer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <div id="sidebar-header">
+        <h1>GDPval Tasks</h1>
+        <div id="task-count"></div>
+      </div>
+      <ul id="task-list"></ul>
+    </aside>
+    <main id="content">
+      <div id="empty-state">Select a task on the left.</div>
+      <div id="task-view" hidden>
+        <header id="task-header">
+          <div>
+            <h2 id="task-occupation"></h2>
+            <div id="task-meta"></div>
+          </div>
+        </header>
+        <nav id="tabs">
+          <button class="tab-btn active" data-tab="prompt">Prompt</button>
+          <button class="tab-btn" data-tab="rubric">Rubric</button>
+          <button class="tab-btn" data-tab="reference">Reference Files</button>
+          <button class="tab-btn" data-tab="deliverable">Gold Deliverable</button>
+          <button class="tab-btn" data-tab="rollouts">Rollouts</button>
+        </nav>
+        <section id="tab-prompt" class="tab-panel"></section>
+        <section id="tab-rubric" class="tab-panel" hidden></section>
+        <section id="tab-reference" class="tab-panel" hidden></section>
+        <section id="tab-deliverable" class="tab-panel" hidden></section>
+        <section id="tab-rollouts" class="tab-panel" hidden></section>
+      </div>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
