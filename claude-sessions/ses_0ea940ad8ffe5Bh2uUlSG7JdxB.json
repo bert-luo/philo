@@ -1,0 +1,523 @@
+{
+  "info": {
+    "id": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+    "slug": "silent-knight",
+    "projectID": "241e4c32f8a1ba176b86d8e1fee7f9412f091079",
+    "directory": "/Users/albert/Projects/philo",
+    "path": "",
+    "title": "Consistency measure across multiple requests to same judge",
+    "agent": "build",
+    "model": {
+      "id": "gpt-5.3-codex",
+      "providerID": "openai"
+    },
+    "version": "1.17.11",
+    "summary": {
+      "additions": 0,
+      "deletions": 0,
+      "files": 0
+    },
+    "cost": 0.050439899999999996,
+    "tokens": {
+      "input": 17810,
+      "output": 355,
+      "reasoning": 556,
+      "cache": {
+        "read": 37248,
+        "write": 0
+      }
+    },
+    "time": {
+      "created": 1782770824487,
+      "updated": 1782770842890
+    }
+  },
+  "messages": [
+    {
+      "info": {
+        "role": "user",
+        "time": {
+          "created": 1782770824505
+        },
+        "agent": "build",
+        "model": {
+          "providerID": "openai",
+          "modelID": "gpt-5.3-codex"
+        },
+        "summary": {
+          "diffs": []
+        },
+        "id": "msg_f156bf539001kOv3eI7qbJ2QvA",
+        "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB"
+      },
+      "parts": [
+        {
+          "type": "text",
+          "text": "is our measure of consistency consistency across different judges or multiple requests to the same judge? it should be the latter",
+          "id": "prt_f156bf53b001l3CTtLhFZlmVeE",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156bf539001kOv3eI7qbJ2QvA"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_f156bf539001kOv3eI7qbJ2QvA",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/Users/albert/Projects/philo",
+          "root": "/Users/albert/Projects/philo"
+        },
+        "cost": 0.01210825,
+        "tokens": {
+          "total": 6037,
+          "input": 5911,
+          "output": 81,
+          "reasoning": 45,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "gpt-5.3-codex",
+        "providerID": "openai",
+        "time": {
+          "created": 1782770824519,
+          "completed": 1782770829388
+        },
+        "finish": "tool-calls",
+        "id": "msg_f156bf547001xkHI7Fiymp7yDm",
+        "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB"
+      },
+      "parts": [
+        {
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-start",
+          "id": "prt_f156bf7f6001i5tCJ3MdlMExnj",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156bf547001xkHI7Fiymp7yDm"
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "time": {
+            "start": 1782770825549,
+            "end": 1782770829145
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "rs_0c1130a9c3bc1795016a42ec898b2c8198925d0290f8e8280f",
+              "reasoningEncryptedContent": "gAAAAABqQuyNx-9DlHgBYcIfKdePdKsTGdc8UE_FsYR9uANHLHgiQo1ZtAQs0qifx9BPXexgrvKNZH7-12bUD5EjJQYpgjO-gvMJsIA5UtkiSnObCPj2rDwV9JUnl8OKgo6tj9IeItvPiKRBEVaEsPTS4GQROVQaFl41lzgAaV6pTQ962mqMw0MvuvfYjENhF76_6J_inc8ETngHeK9UyQ4SkAxvNVoG2klFQAyPQXbl1Sput9inRK3LI0MJxwEfgXSNehG-NCdnZgmG52MTsfFmN5VL5a7DVnBOswgSS_65Z3D4EbeGsm3Cak3PNUVBR8F8IOnRFbeCYbeCmJIyS49btnOr7s8zbTyLqQIfj_JoxjcsVcB-nzwVrWn2mtai5jW9iwwrY_Rlv76dH277JbZg3SjbRqe0rt_uVFrlX_mB2KHgukUjXXbUwxzRSzS6ls_PRNvpGKnX97L3W_nGY9bXTm8yY5hQ5rdTo5D2wv4ruqSJxvB8rGu6ZMreDfDf9OgesYytYcE9sWR-mA66o_Q8T6Ch0G1MYOQK1zJfjevTnYTvTSYiKeiWyNLLr-Ui3hPaPBCsGNtTZ3aa3kCCgmtB12aO6iNjkB7OV11FSm9Hd7pH6DehBXcD2-3EmaB_-Cd3CldPpTzBk-9tlRkoNtY2jLdcPvUFGQ93aHsc_ed0_jkeKToEGQ-qmjy6wNpACGXaJN8sbVdMumFnfZWB96pj8nqqacEhP7nUKuSHWnyjebSoAkfOKRC_eGJU90M5zHMBnrsMzBYOqbWgUU60PhNvKbfTSd4XRGhqQ-UzlvHUAGEpxsmIjDZYBMAG9y9L_Lvy6GPGXYIif6yBV5zOxTSveYc9BbocZhN_P2-_rZNzVvNC1KW3Ra-BHpM3cUXTNz5S_JbXcOmQv3MBMzFWiu6G7xVD5owvYrgyvaKnnOaPfvOiGltL0GjIWu1PNebVSxjRzioRQr_B8dQm2EyHx1v__n7tfWqEeStVc8pB_3ufJfLc1flDN8o7YMJYkm6jlIqSXHP1u2UM8TU8PeYBBq3gzAVI2fbXhFUgRSbBR9hnuOkFhAsxsjZcbiOFHQsUps9CVYy9FqqIOGbFujwuOcZ87Iy5KT-sfFnDCU4LrSvqVX8KchKnma6lG5LIRaJvodDX2D0IbFeiJfIJda69WZXI39_jSSapBEalN7iD-soBqMMhIxYLHkFJNedoQG2yu9ZGBbIbdfBVyf96XANNM6hbikwLWT_yew=="
+            }
+          },
+          "id": "prt_f156bf94d001H5HJ42H5XJqwSG",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156bf547001xkHI7Fiymp7yDm"
+        },
+        {
+          "type": "tool",
+          "tool": "grep",
+          "callID": "call_V3m2oEKowLM2okVnIKvvyS5K",
+          "state": {
+            "status": "completed",
+            "input": {
+              "pattern": "consisten",
+              "path": "/Users/albert/Projects/philo",
+              "include": "*"
+            },
+            "output": "Found 100 matches (more matches available)\n/Users/albert/Projects/philo/instructions.md:\n  Line 91: Self-consistency: run the same rubric on the same output several times with the same judge.\n\n  Line 94: Cross-model consistency: score the same output with two or more judge models. Do they\n\n  Line 138: self-consistency variance, cross-model agreement) and a column\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/typing_extensions.py:\n  Line 990:             # TypeError is consistent with the behavior of NoneType\n\n  Line 1346:         associated with a value of a consistent type. This expectation\n\n\n/Users/albert/Projects/philo/data/film_and_video_editors__75401f7c/rubric_pretty.txt:\n  Line 35: [+1] The music track exhibits a high‑energy rock or electronic style consistent with the prompt’s intent.\n\n  Line 75: [+1] The image fills the 1920x1080 frame without unintended letterboxing or pillarboxing (stylized mattes are acceptable if used consistently).\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/distro/distro.py:\n  Line 186:     the OS distribution is not consistent across multiple data sources it\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pyarrow/src/arrow/python/numpy_to_arrow.cc:\n  Line 871:   // Ensure the different array groups are chunked consistently\n\n\n/Users/albert/Projects/philo/data/film_and_video_editors__75401f7c/rubric.json:\n  Line 208:     \"criterion\": \"The music track exhibits a high\\u2011energy rock or electronic style consistent with the prompt\\u2019s intent.\",\n\n  Line 448:     \"criterion\": \"The image fills the 1920x1080 frame without unintended letterboxing or pillarboxing (stylized mattes are acceptable if used consistently).\",\n\n\n/Users/albert/Projects/philo/data/private_detectives_and_investigators__a46d5cd2/rubric_pretty.txt:\n  Line 37: [+2] Accurately reports the dates on which Field Investigator A conducted surveillance, consistent with the investigator’s report.\n\n  Line 69: [+1] States whether the observed activities are consistent or inconsistent with the claimant's reported limitations, citing the specific observations supporting the assessment\n\n  Line 83: [+1] Uses a consistent time notation throughout the report (e.g., all 24-hour or all 12-hour with AM/PM)\n\n  Line 85: [+1] Uses the term \"claimant\" consistently to refer to the subject of the investigation\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/bcppcompiler.py:\n  Line 35:     # Would be nice to have a consistent interface with UnixCCompiler,\n\n\n/Users/albert/Projects/philo/data/producers_and_directors__e4f664ea/rubric_pretty.txt:\n  Line 37: [+1] Character names are used consistently throughout (no switching between aliases without in‑script context)\n\n  Line 39: [+1] Location names are used consistently across scene headings\n\n  Line 67: [+1] If a montage is used, it is labeled MONTAGE in ALL CAPS and formatted consistently per the guide\n\n\n/Users/albert/Projects/philo/data/producers_and_directors__e4f664ea/rubric.json:\n  Line 202:     \"criterion\": \"Character names are used consistently throughout (no switching between aliases without in\\u2011script context)\",\n\n  Line 213:     \"criterion\": \"Location names are used consistently across scene headings\",\n\n  Line 367:     \"criterion\": \"If a montage is used, it is labeled MONTAGE in ALL CAPS and formatted consistently per the guide\",\n\n\n/Users/albert/Projects/philo/data/private_detectives_and_investigators__a46d5cd2/rubric.json:\n  Line 220:     \"criterion\": \"Accurately reports the dates on which Field Investigator A conducted surveillance, consistent with the investigator\\u2019s report.\",\n\n  Line 412:     \"criterion\": \"States whether the observed activities are consistent or inconsistent with the claimant's reported limitations, citing the specific observations supporting the assessment\",\n\n  Line 496:     \"criterion\": \"Uses a consistent time notation throughout the report (e.g., all 24-hour or all 12-hour with AM/PM)\",\n\n  Line 508:     \"criterion\": \"Uses the term \\\"claimant\\\" consistently to refer to the subject of the investigation\",\n\n\n/Users/albert/Projects/philo/data/film_and_video_editors__a941b6d8/rubric_pretty.txt:\n  Line 23: [+1] Mask remains temporally consistent with no edge chatter or jitter across frames\n\n  Line 47: [+1] Motion blur within the window content is consistent with the Base Clip’s camera movement\n\n  Line 55: [+1] Overlay contrast and saturation are consistent with the Base Clip\n\n  Line 75: [+1] Smoke scale and placement are consistent with the window’s tracked perspective\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/command/install.py:\n  Line 251:         # Check for errors/inconsistencies in the options; first, stuff\n\n\n/Users/albert/Projects/philo/data/film_and_video_editors__a941b6d8/rubric.json:\n  Line 125:     \"criterion\": \"Mask remains temporally consistent with no edge chatter or jitter across frames\",\n\n  Line 257:     \"criterion\": \"Motion blur within the window content is consistent with the Base Clip\\u2019s camera movement\",\n\n  Line 301:     \"criterion\": \"Overlay contrast and saturation are consistent with the Base Clip\",\n\n  Line 411:     \"criterion\": \"Smoke scale and placement are consistent with the window\\u2019s tracked perspective\",\n\n\n/Users/albert/Projects/philo/data/audio_and_video_technicians__ff85ee58/rubric_pretty.txt:\n  Line 64: [+1] File contains embedded or detectable metadata (container header) consistent with 24‑bit, 48 kHz PCM when inspected (e.g., fmt chunk or FLAC STREAMINFO).\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/requests-2.32.5.dist-info/licenses/LICENSE:\n  Line 169:       or other liability obligations and/or rights consistent with this\n\n\n/Users/albert/Projects/philo/data/audio_and_video_technicians__ff85ee58/rubric.json:\n  Line 343:     \"criterion\": \"File contains embedded or detectable metadata (container header) consistent with 24\\u2011bit, 48 kHz PCM when inspected (e.g., fmt chunk or FLAC STREAMINFO).\",\n\n\n/Users/albert/Projects/philo/data/private_detectives_and_investigators__57b2cdf2/rubric_pretty.txt:\n  Line 43: [+1] Uses timestamps in a single consistent format across all deliverable sections\n\n  Line 69: [+1] Uses consistent indentation or bullet formatting throughout the Surveillance section\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/typing_inspection/typing_objects.py:\n  Line 203: # Unlikely to have a different version in `typing-extensions`, but keep it consistent.\n\n\n/Users/albert/Projects/philo/data/private_detectives_and_investigators__57b2cdf2/rubric.json:\n  Line 235:     \"criterion\": \"Uses timestamps in a single consistent format across all deliverable sections\",\n\n  Line 378:     \"criterion\": \"Uses consistent indentation or bullet formatting throughout the Surveillance section\",\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/resolvelib/resolvers/resolution.py:\n  Line 22:     InconsistentCandidate,\n\n  Line 235:                 raise InconsistentCandidate(candidate, criterion)\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/h11/_readers.py:\n  Line 6: # 2) raises a LocalProtocolError (for consistency -- e.g. we call validate()\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/resolvelib/resolvers/exceptions.py:\n  Line 30: class InconsistentCandidate(ResolverException, Generic[RT, CT]):\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/resolvelib/resolvers/__init__.py:\n  Line 5:     InconsistentCandidate,\n\n  Line 17:     \"InconsistentCandidate\",\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/resolvelib/__init__.py:\n  Line 5:     \"InconsistentCandidate\",\n\n  Line 21:     InconsistentCandidate,\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/tzdata-2026.2.dist-info/licenses/licenses/LICENSE_APACHE:\n  Line 168:       or other liability obligations and/or rights consistent with this\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/command/build_py.py:\n  Line 359:             # 'find_package_tuples()' have a consistent interface; it's\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/truststore/_ssl_constants.py:\n  Line 5: # Hold on to the original class so we can create it consistently\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pymupdf/mupdf.py:\n  Line 7958:     the file in an inconsistent state.\n\n  Line 33583:     the objects structure). This allows for consistent (thread safe)\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pyarrow-21.0.0.dist-info/licenses/LICENSE.txt:\n  Line 169:       or other liability obligations and/or rights consistent with this\n\n  Line 1102:       or other liability obligations and/or rights consistent with this\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/urllib3/connectionpool.py:\n  Line 606:             consistent else will raise HostChangedError. When ``False``, you can\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright/sync_api/_generated.py:\n  Line 15556:             Sets a consistent viewport for each page. Defaults to an 1280x720 viewport. `no_viewport` disables the fixed\n\n  Line 15559:             Emulates consistent window screen size available inside web page via `window.screen`. Is only used when the\n\n  Line 15793:             Sets a consistent viewport for each page. Defaults to an 1280x720 viewport. `no_viewport` disables the fixed\n\n  Line 15796:             Emulates consistent window screen size available inside web page via `window.screen`. Is only used when the\n\n  Line 16427:             Sets a consistent viewport for each page. Defaults to an 1280x720 viewport. `no_viewport` disables the fixed\n\n  Line 16430:             Emulates consistent window screen size available inside web page via `window.screen`. Is only used when the\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pymupdf/__init__.py:\n  Line 400:         f'Inconsistent MuPDF version numbers: {mupdf_version_tuple=} != {(mupdf.FZ_VERSION_MAJOR, mupdf.FZ_VERSION_MINOR, mupdf.FZ_VERSION_PATCH)=}'\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pymupdf/mupdf-devel/include/mupdf/functions.h:\n  Line 1952: \tthe file in an inconsistent state.\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/errors.py:\n  Line 44:     mutually conflicting options, or inconsistent options,\n\n  Line 68:     \"\"\"Internal inconsistencies or impossibilities (obviously, this\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/msvccompiler.py:\n  Line 209:     # Would be nice to have a consistent interface with UnixCCompiler,\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pymupdf/mupdf-devel/include/mupdf/fitz/store.h:\n  Line 44: \tthe objects structure). This allows for consistent (thread safe)\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright/async_api/_generated.py:\n  Line 15602:             Sets a consistent viewport for each page. Defaults to an 1280x720 viewport. `no_viewport` disables the fixed\n\n  Line 15605:             Emulates consistent window screen size available inside web page via `window.screen`. Is only used when the\n\n  Line 15837:             Sets a consistent viewport for each page. Defaults to an 1280x720 viewport. `no_viewport` disables the fixed\n\n  Line 15840:             Emulates consistent window screen size available inside web page via `window.screen`. Is only used when the\n\n  Line 16463:             Sets a consistent viewport for each page. Defaults to an 1280x720 viewport. `no_viewport` disables the fixed\n\n  Line 16466:             Emulates consistent window screen size available inside web page via `window.screen`. Is only used when the\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pyarrow/src/arrow/python/udf.cc:\n  Line 579:   // function validation. The name group_id_array is consistent with\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/file_util.py:\n  Line 95:     # macostools.copyfile() does.  Should definitely be consistent, and\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/packaging/LICENSE.APACHE:\n  Line 169:       or other liability obligations and/or rights consistent with this\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pyarrow/compute.py:\n  Line 342: # Alias for consistency; globals() is needed to avoid Python lint errors\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright-1.60.0.dist-info/licenses/LICENSE:\n  Line 168:       or other liability obligations and/or rights consistent with this\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/fancy_getopt.py:\n  Line 191:                           \"invalid alias '%s': inconsistent with \"\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright/driver/package/lib/coreBundle.js:\n  Line 38247:           if (errorMessage.includes(\"Inconsistency detected by ld.so\")) {\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/numpy/polynomial/__init__.py:\n  Line 29: These *convenience classes* provide a consistent interface for creating,\n\n  Line 37: The classes provide a more consistent and concise interface than the\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pydantic/json_schema.py:\n  Line 1614:         # because it could lead to inconsistent refs handling, etc.\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pymupdf/mupdf-devel/include/mupdf/fitz/writer.h:\n  Line 67: \tthe file in an inconsistent state and the user of the\n\n  Line 225: \tthe file in an inconsistent state.\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/msvc9compiler.py:\n  Line 307:     # Would be nice to have a consistent interface with UnixCCompiler,\n\n  Line 334:         # target platform (.plat_name is consistent with 'bdist')\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/ccompiler.py:\n  Line 601:         just for consistency).\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/setuptools/_distutils/_msvccompiler.py:\n  Line 183:     # Would be nice to have a consistent interface with UnixCCompiler,\n\n  Line 207:         # target platform (.plat_name is consistent with 'bdist')\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pymupdf/mupdf-devel/include/mupdf/memento.h:\n  Line 33:  *    execution, the heap is checked for consistency. By default this happens\n\n  Line 47:  *    A given heap block can be checked for consistency (it's 'pre' and\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_internal/metadata/base.py:\n  Line 551:         to fail because the dist-info format do normalize. This is consistent in\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pydantic/fields.py:\n  Line 430:         # HACK 1: the order in which the metadata is merged is inconsistent; we need to prepend\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright/driver/package/lib/vite/recorder/assets/codeMirrorModule-BHYmBp6h.js:\n  Line 11: `},setDirection:at(function(e){e!=\"rtl\"&&(e=\"ltr\"),e!=this.direction&&(this.direction=e,this.iter(function(t){return t.order=null}),this.cm&&nu(this.cm))})}),Lt.prototype.eachLine=Lt.prototype.iter;var ql=0;function vu(e){var t=this;if(jl(t),!(Qe(t,e)||tr(t.display,e))){pt(e),k&&(ql=+new Date);var n=Lr(t,e,!0),r=e.dataTransfer.files;if(!(!n||t.isReadOnly()))if(r&&r.length&&window.FileReader&&window.File)for(var i=r.length,o=Array(i),l=0,a=function(){++l==i&&lt(t,function(){n=Ae(t.doc,n);var L={from:n,to:n,text:t.doc.splitLines(o.filter(function(H){return H!=null}).join(t.doc.lineSeparator())),origin:\"paste\"};Jr(t.doc,L),Dl(t.doc,pr(Ae(t.doc,n),Ae(t.doc,gr(L))))})()},s=function(L,H){if(t.options.allowDropFileTypes&&ve(t.options.allowDropFileTypes,L.type)==-1){a();return}var Z=new FileReader;Z.onerror=function(){return a()},Z.onload=function(){var ie=Z.result;if(/[\\x00-\\x08\\x0e-\\x1f]{2}/.test(ie)){a();return}o[H]=ie,a()},Z.readAsText(L)},u=0;u<r.length;u++)s(r[u],u);else{if(t.state.draggingText&&t.doc.sel.contains(n)>-1){t.state.draggingText(e),setTimeout(function(){return t.display.input.focus()},20);return}try{var h=e.dataTransfer.getData(\"Text\");if(h){var x;if(t.state.draggingText&&!t.state.draggingText.copy&&(x=t.listSelections()),li(t.doc,pr(n,n)),x)for(var D=0;D<x.length;++D)Zr(t.doc,\"\",x[D].anchor,x[D].head,\"drag\");t.replaceSelection(h,\"around\",\"paste\"),t.display.input.focus()}}catch{}}}}function mu(e,t){if(k&&(!e.state.draggingText||+new Date-ql<100)){ar(t);return}if(!(Qe(e,t)||tr(e.display,t))&&(t.dataTransfer.setData(\"Text\",e.getSelection()),t.dataTransfer.effectAllowed=\"copyMove\",t.dataTransfer.setDragImage&&!$)){var n=c(\"img\",null,null,\"position: fixed; left: 0; top: 0;\");n.src=\"data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==\",A&&(n.width=n.height=1,e.display.wrapper.appendChild(n),n._top=n.offsetTop),t.dataTransfer.setDragImage(n,0,0),A&&n.parentNode.removeChild(n)}}function xu(e,t){var n=Lr(e,t);if(n){var r=document.createDocum...\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pydantic/config.py:\n  Line 1161:     for consistency with alias behavior for validation and serialization settings.\n\n\n(Results truncated. Consider using a more specific path or pattern.)",
+            "metadata": {
+              "matches": 100,
+              "truncated": true
+            },
+            "title": "consisten",
+            "time": {
+              "start": 1782770829157,
+              "end": 1782770829211
+            }
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "fc_0c1130a9c3bc1795016a42ec8d1eb881989fa715eeff074004"
+            }
+          },
+          "id": "prt_f156c075e001nwFP6wDliODMeW",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156bf547001xkHI7Fiymp7yDm"
+        },
+        {
+          "type": "tool",
+          "tool": "grep",
+          "callID": "call_q1Rtufcr7o0Lw3oXOsGHo8vW",
+          "state": {
+            "status": "completed",
+            "input": {
+              "pattern": "judge",
+              "path": "/Users/albert/Projects/philo",
+              "include": "*"
+            },
+            "output": "Found 100 matches (more matches available)\n/Users/albert/Projects/philo/instructions.md:\n  Line 10: rubrics instead: short lists of criteria, each scored by a person or by a model acting as a judge.\n\n  Line 91: Self-consistency: run the same rubric on the same output several times with the same judge.\n\n  Line 94: Cross-model consistency: score the same output with two or more judge models. Do they\n\n  Line 96: When two judges disagree, ask why. If one judge is simply more capable, fine. If a criterion is so\n\n  Line 98: judge.\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_vendor/rich/_emoji_codes.py:\n  Line 1339:     \"man_judge\": \"👨\\u200d⚖️\",\n\n  Line 1340:     \"man_judge_dark_skin_tone\": \"👨🏿\\u200d⚖️\",\n\n  Line 1341:     \"man_judge_light_skin_tone\": \"👨🏻\\u200d⚖️\",\n\n  Line 1342:     \"man_judge_medium-dark_skin_tone\": \"👨🏾\\u200d⚖️\",\n\n  Line 1343:     \"man_judge_medium-light_skin_tone\": \"👨🏼\\u200d⚖️\",\n\n  Line 1344:     \"man_judge_medium_skin_tone\": \"👨🏽\\u200d⚖️\",\n\n  Line 2563:     \"woman_judge\": \"👩\\u200d⚖️\",\n\n  Line 2564:     \"woman_judge_dark_skin_tone\": \"👩🏿\\u200d⚖️\",\n\n  Line 2565:     \"woman_judge_light_skin_tone\": \"👩🏻\\u200d⚖️\",\n\n  Line 2566:     \"woman_judge_medium-dark_skin_tone\": \"👩🏾\\u200d⚖️\",\n\n  Line 2567:     \"woman_judge_medium-light_skin_tone\": \"👩🏼\\u200d⚖️\",\n\n  Line 2568:     \"woman_judge_medium_skin_tone\": \"👩🏽\\u200d⚖️\",\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright/driver/package/lib/tools/cli-client/skill/references/spec-driven-testing.md:\n  Line 174: Walk the scenario's `Steps:` one by one with `playwright-cli`, treating the spec as the plan and the live app as the source of truth. If a step is vague (\"click the button\" — which button?), references an element that no longer exists, or contradicts the app's actual behaviour, use your judgement: update the spec to match what the app really does, then keep going. Editing the spec mid-generation is expected.\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/PIL/ImageCms.py:\n  Line 646:     (making it difficult to make a real print for color judgement purposes).\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/playwright/driver/package/lib/tools/cli-client/skill/references/playwright-tests.md:\n  Line 37: This code appears in the output and can be copied directly into the test. Most of the time, a specific locator or an expectation should be updated, but it could also be a bug in the app. Use your judgement.\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip/_internal/req/constructors.py:\n  Line 283:     This does not check whether the target actually exists, only judge from the\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/pip-26.0.1.dist-info/licenses/AUTHORS.txt:\n  Line 612: onlinejudge95\n\n\n/Users/albert/Projects/philo/.venv/lib/python3.9/site-packages/h11-0.16.0.dist-info/METADATA:\n  Line 57: <https://tools.ietf.org/html/rfc6214>`_ -- h11 won't judge you.\n\n  Line 179: to change much, but you can't judge an API's ergonomics until you\n\n\n/Users/albert/Projects/philo/eval/models.py:\n  Line 6:   * capability tier   nano/mini, small/large MoE -> \"does a stronger judge agree?\"\n\n  Line 19: modality axis measurable: native-audio judges vs. transcript-only judges scoring\n\n  Line 73:     # --- Full-modality judges: the only ones that natively HEAR audio ---\n\n  Line 79:     \"nemotron-omni\": Model(   # free; second native-audio judge for cross-model on A/V tasks\n\n  Line 86:     # (also usable as judges). Modalities map OpenRouter's image/audio to ours; video\n\n  Line 105: # Self-consistency: cheapest capable judge, repeated.\n\n\n/Users/albert/Projects/philo/eval/harness.py:\n  Line 1: \"\"\"The judge harness: one model grades one deliverable against one rubric.\n\n  Line 17: MAX_TOOL_CALLS = 30          # hard budget across the whole judgement\n\n  Line 81: def judge(\n\n  Line 209:     # A judgement is only trustworthy if (near) every item got a verdict.\n\n  Line 216: def judge_safe(model: Model, bundle: Bundle, items: list[RubricItem], task_prompt: str,\n\n  Line 218:     \"\"\"judge() that never raises: on failure returns an error-marked result so a\n\n  Line 221:         return judge(model, bundle, items, task_prompt, **kw)\n\n\n/Users/albert/Projects/philo/eval/media.py:\n  Line 52:     This exists so the judge never has to *guess* objective technical criteria\n\n  Line 153: # --- transcription (the degraded audio path available to every judge) ------\n\n\n/Users/albert/Projects/philo/eval/run.py:\n  Line 8:   judge     Grade one or more SUBJECTS per task against the rubric, then derive the\n\n  Line 12:               * Cross-model consistency (Axis 3): when >=2 --judge-models grade the\n\n  Line 14:               * Self-consistency (Axis 3): when --repeats > 1, one judge re-grades the\n\n  Line 22:   # boundary + cross-model in one shot (3 judges, all gold tasks):\n\n  Line 23:   python -m eval.run --mode judge --judge-models gpt-mini qwen-vl gemini-lite\n\n  Line 25:   # add self-consistency (one judge, 5 repeats) on a single task:\n\n  Line 26:   python -m eval.run --mode judge --tasks private_detectives_and_investigators__57b2cdf2 \\\n\n  Line 27:       --judge-models qwen-vl --repeats 5 --temperature 0.7\n\n  Line 29:   # consistency OFF (single judge, single pass) on a rollout you generated:\n\n  Line 30:   python -m eval.run --mode judge --subjects rollout:gpt-mini --judge-models gpt-mini\n\n  Line 43: from .harness import judge_safe as judge  # never let one flaky judgement abort the sweep\n\n  Line 89: # --- judge mode -------------------------------------------------------------\n\n  Line 90: def run_judge(tasks, subjects_arg, judge_keys, repeats, self_key, temperature, verbose):\n\n  Line 91:     judges = resolve(judge_keys)\n\n  Line 92:     self_model = resolve([self_key])[0] if self_key else judges[0]\n\n  Line 105:         # matrix[subject][judge_key] = base run (T=0); matrix[subject]['_self'] = repeats\n\n  Line 114:             for m in judges:\n\n  Line 115:                 r = judge(m, bundle, items, task[\"prompt\"], temperature=0.0, verbose=verbose)\n\n  Line 132:                 self_runs = [judge(self_model, bundle, items, task[\"prompt\"],\n\n  Line 157:         if len(judges) > 1:\n\n  Line 172:         # ---- derive: boundary calibration (per judge, needs gold + a null) ----\n\n  Line 176:             for m in judges:\n\n  Line 193: def _hack_flag(report, tf, subj, judge_key, norm) -> str:\n\n  Line 199:         n = len(report.get(tf, {}).get(\"boundary\", {}).get(judge_key, {}).get(\"leaks\", []))\n\n  Line 223:         [\"task\", \"subject\", \"judge\", \"score\", \"verifiable_only\", \"n_unverifiable\",\n\n  Line 229:             [\"task\", \"subject\", \"kind\", \"judges\", \"mean_score\", \"score_stdev\",\n\n  Line 255:     print(f\"  python -m eval.run --mode judge --subjects rollout:{policies[0].key} \"\n\n  Line 256:           f\"--judge-models {' '.join(policy_keys)}\")\n\n  Line 262:     ap.add_argument(\"--mode\", choices=[\"judge\", \"rollout\"], default=\"judge\")\n\n  Line 264:                     help=\"task folders; default = all (rollout) / all with gold (judge)\")\n\n  Line 267:     # judge mode\n\n  Line 271:     ap.add_argument(\"--judge-models\", nargs=\"*\", default=[\"gpt-mini\"],\n\n  Line 274:                     help=\">1 turns ON self-consistency (one judge, repeated).\")\n\n  Line 276:                     help=\"judge used for self-consistency repeats (default: first --judge-model).\")\n\n  Line 292:         run_judge(tasks, a.subjects, a.judge_models, a.repeats,\n\n\n/Users/albert/Projects/philo/eval/deliverable.py:\n  Line 1: \"\"\"A Bundle wraps the set of files a judge may inspect for one deliverable.\n\n  Line 159:     Lets the judge answer 'is it a PDF?', 'is it <= 2 pages?', 'word count'\n\n\n/Users/albert/Projects/philo/eval/rubric.py:\n  Line 4: criterion. The judge awards each item a fraction in [0,1] of its points; the\n\n  Line 50:     `unverifiable` items (the judge couldn't check them at all) still count as 0\n\n  Line 53:     A large gap between the two means the rubric asks for things no judge can\n\n\n/Users/albert/Projects/philo/eval/results/scorecard.tsv:\n  Line 1: task\tsubject\tjudge\tscore\tverifiable_only\tn_unverifiable\tn_items\tvalid\tpenalty_floored\tgold_gap\treward_hack_flag\n\n\n/Users/albert/Projects/philo/eval/results/consistency.tsv:\n  Line 1: task\tsubject\tkind\tjudges\tmean_score\tscore_stdev\tfrac_unanimous\tmean_item_stdev\n\n\n/Users/albert/Projects/philo/eval/README.md:\n  Line 6: gradeable deliverables. Built on the shared judge harness, model suite, and\n\n  Line 15:   tools.py             # judge agent tools, gated by each model's modalities\n\n  Line 16:   harness.py           # the judge: tool-using agent -> per-item [0,1] scorecard\n\n  Line 21:   run.py               # unified runner: --mode {judge, rollout}\n\n  Line 36: ## The judge suite (`models.py`)\n\n  Line 44: | `qwen-vl` | OpenRouter | qwen/qwen3.5-35b-a3b | text, image | cheap mid judge; cross-vendor |\n\n  Line 46: | `gemini-lite` | OpenRouter | google/gemini-2.5-flash-lite | text, image, **audio** | the only judge that natively *hears* |\n\n  Line 47: | `nemotron-omni` | OpenRouter | nvidia/nemotron-3-nano-omni (free) | text, image, audio | free 2nd native-audio judge for A/V tasks |\n\n  Line 49: A judge without `audio` still reaches audio *content* through the\n\n  Line 61: `met | unmet | partial | unverifiable`. Safeguards: per-judgement tool-call\n\n  Line 64: To give the judge a *fair shot* (early runs lost ~60% of the gold ceiling to\n\n  Line 75: * an explicit **`unverifiable`** verdict for criteria no judge can check from the\n\n  Line 99: ## Running the eval (`--mode judge`)\n\n  Line 117: * **Cross-model consistency (Axis 3)** — turned ON by passing ≥2 `--judge-models`:\n\n  Line 119: * **Self-consistency (Axis 3)** — turned ON by `--repeats > 1`: one judge\n\n  Line 120:   (`--self-model`, default the first judge) re-grades each subject at\n\n  Line 124: # boundary + cross-model in one shot (3 judges, all gold tasks):\n\n  Line 125: python -m eval.run --mode judge --judge-models gpt-mini qwen-vl gemini-lite\n\n  Line 128: python -m eval.run --mode judge --tasks <folder> --judge-models qwen-vl \\\n\n\n(Results truncated. Consider using a more specific path or pattern.)",
+            "metadata": {
+              "matches": 100,
+              "truncated": true
+            },
+            "title": "judge",
+            "time": {
+              "start": 1782770829168,
+              "end": 1782770829304
+            }
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "fc_0c1130a9c3bc1795016a42ec8d1ed881988e5596ad6d98e4a8"
+            }
+          },
+          "id": "prt_f156c076c0012B7178V6SPaPzd",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156bf547001xkHI7Fiymp7yDm"
+        },
+        {
+          "reason": "tool-calls",
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-finish",
+          "tokens": {
+            "total": 6037,
+            "input": 5911,
+            "output": 81,
+            "reasoning": 45,
+            "cache": {
+              "write": 0,
+              "read": 0
+            }
+          },
+          "cost": 0.01210825,
+          "id": "prt_f156c0824001HyMLDh06At9qcI",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156bf547001xkHI7Fiymp7yDm"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_f156bf539001kOv3eI7qbJ2QvA",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/Users/albert/Projects/philo",
+          "root": "/Users/albert/Projects/philo"
+        },
+        "cost": 0.01678215,
+        "tokens": {
+          "total": 13811,
+          "input": 7769,
+          "output": 39,
+          "reasoning": 115,
+          "cache": {
+            "write": 0,
+            "read": 5888
+          }
+        },
+        "modelID": "gpt-5.3-codex",
+        "providerID": "openai",
+        "time": {
+          "created": 1782770829390,
+          "completed": 1782770832528
+        },
+        "finish": "tool-calls",
+        "id": "msg_f156c084e0018hn0FiI3D76wSd",
+        "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB"
+      },
+      "parts": [
+        {
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-start",
+          "id": "prt_f156c09ea001Pnk5OATrr2DQMt",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c084e0018hn0FiI3D76wSd"
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "time": {
+            "start": 1782770830104,
+            "end": 1782770832360
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "rs_0bd551cf1838cef3016a42ec8e031c81999352009e7612ed05",
+              "reasoningEncryptedContent": "gAAAAABqQuyQwFfBS5aSANOL_-WPAp-lw6mXIUkLiQ_D5bhpD6nDXcSlqmFDUY4_x5TGAvahudxfxFC6TF5kJLPFHeThMfNW0AeAmlFRgCv4VFyIVazEuhTNTpVp2KYxO1StfG6bJOjuUYxen-nVAVSiKMgfBACjx_ND_wpQSAAC1R1qoM6gMAxwOjrVaqh__FXxhL8_vVgjJpL0a_q1P6Zct21LANye-CMcu-61KF1-6Svj7qWByaCWEFie_sOfo6JQEvqqCopOhUGu5l1OFI9uEO1Nuo-mCn_gXCHJK1CEZuD7Z1yDKOX1Z-4IcG1QgvB44rnI8974CKzYjj35MOSh9SMuMKadmFK7RfEV15nrwmk5V-xad1D3PHQrimfzn_P2Hcy8c8Za26midT4p8hDt5RHAvVc47o5W5BxFq51D05uHVp0eVOY2JbMbK7qb4evi2jr6IPsZrKNt2rhQbFw4Gpgue-x5XK-U5NXCUgsoa6enEbXCMXR1P5Y-1wqBH7EScP3Q2T0MsFE_8ix0kkFRG5mUPWRXooUZOarY2D1E02LJTKmEViHQvHDuaEfdNN6Iipc8AQ9BDxyYFFMLgKlmexCA7G_vCKGJKpMEZkuwzoydlIs2T8O6A7tbtuiKcbrDzEtzF3u5eZ_ZBXGEW_Ety8o_RVeL9eBP7hQSBsTjjQrFTJhMMRtVepg0KQuY4SSchBS1uAIRBfeUT9n9B4HvKfJItSlGPZ0EBL18R0xZ-e3NsLGNgd6qBBUxmdvR70FLCMa8u_K9qLgh06_jLgB8j8mTOizljLUBbS5YpqCciDY1HROjQbxPphphy2WOsNapLOTLPnMEIcDHqPRq4g92cruqmOyxVDtpOOnENDmrZnETq8KUO3G7IQxxfRkVg5gnHoddN6oqvkuprME5ilnk9LKDFehyZ53hJVt_sEWDA3dziJl6udjXnKpNZb2uHHB_tjJSCxagtidHecKu31SdsWIPnCf7oYzhl_YCeF0kIIxdLH8QRW_K3zJeot285BqkNVwMTUSWCtxCIQrIp10uL--oYKpu6ia08HGA-160xWIl6LWv2P9UDS4RPJFUNEwEST8VH00g_-ty_qHfacBQPIKIV_pdNIFg9r5cRSl84bvtW1qqfXkpdC53rh2cN5ed-1zpY9sCOLIACX0PXqqtjtUgovDnPTkCV1Qp_cMOLRMnaHN2XDwLAZI3MWNUzh3O8fXW-a2bqTebUE4bXiLqp7H5IzLn-elfhYUBHJUZEXX4oKP3n8BmvbACBEg9jxohIVH5CL9z0cI0NzjEbCgAycJUgFbjKtJqc5d5u44LDnoJpkj1QaEC39KrPFMottECB2rhYDeHxH6ZUKNBh-cpgj_mhI4rpdxF6ih5h781dMWfMwLyuIe42gyGSddskq10U1ooVTvPCAHk2Tk-JHinljh8ZXfyos9R864UQBPQEspLU26EldEqu7YqQ3PN2TLCgi2cVgd4kOSFeIM8FdEWZnQYj8sknf-nuicHPX-iP0kXoGcuelVNDaOuZt-fksGdOiQruRW4vs78SXliUZ2D3fVmXfNsA2wGuynaMypcS2qTTY6uzRV49YmiJRr7b3Tl-ciY11wqZB7gTv06k7t9cuq2H4S4tEpAPw80Np1VeT-Z5ov5wSg0ICDLyqjhHHSbVmUk8aNFquQiTKmFc8I7IsU0Q-JgP7fkrv90BbVrxrHsRcNoIKpXa0yd60LUEJAjhXh1aiRziIom4hguoSycCVs3oqnTq5MkTs47IgNlM8lF5MluoaY="
+            }
+          },
+          "id": "prt_f156c0b18001h4netgdQNSYAIc",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c084e0018hn0FiI3D76wSd"
+        },
+        {
+          "type": "tool",
+          "tool": "read",
+          "callID": "call_jbQ7LQRJqViAGU5KiZcSOxHi",
+          "state": {
+            "status": "completed",
+            "input": {
+              "filePath": "/Users/albert/Projects/philo/eval/run.py",
+              "offset": 1,
+              "limit": 260
+            },
+            "output": "<path>/Users/albert/Projects/philo/eval/run.py</path>\n<type>file</type>\n<content>\n1: \"\"\"Unified eval runner — one entrypoint for the rubric scorecard.\n2: \n3: Two modes, selected with --mode:\n4: \n5:   rollout   Have policy model(s) attempt the real GDPval tasks and produce actual\n6:             deliverables (eval.policy). These become gradeable subjects.\n7: \n8:   judge     Grade one or more SUBJECTS per task against the rubric, then derive the\n9:             axes from a single judging matrix:\n10:               * Boundary calibration (Axis 1): gold should score ~1, nulls ~0; we\n11:                 report the gold-null gap and \"leaks\" (null passing a positive item).\n12:               * Cross-model consistency (Axis 3): when >=2 --judge-models grade the\n13:                 same subject, do they agree?\n14:               * Self-consistency (Axis 3): when --repeats > 1, one judge re-grades the\n15:                 same subject; do the scores reproduce?\n16: \n17: A subject is named on the CLI: `gold`, a null variant (`blank`, `unedited_input`),\n18: `rollout:<policy_key>`, or `preexisting:<path>`. Default subjects are gold + nulls\n19: (the boundary anchors).\n20: \n21: Examples:\n22:   # boundary + cross-model in one shot (3 judges, all gold tasks):\n23:   python -m eval.run --mode judge --judge-models gpt-mini qwen-vl gemini-lite\n24: \n25:   # add self-consistency (one judge, 5 repeats) on a single task:\n26:   python -m eval.run --mode judge --tasks private_detectives_and_investigators__57b2cdf2 \\\n27:       --judge-models qwen-vl --repeats 5 --temperature 0.7\n28: \n29:   # consistency OFF (single judge, single pass) on a rollout you generated:\n30:   python -m eval.run --mode judge --subjects rollout:gpt-mini --judge-models gpt-mini\n31: \n32:   # generate rollouts first:\n33:   python -m eval.run --mode rollout --policy-models gpt-mini --tasks <folder>\n34: \"\"\"\n35: from __future__ import annotations\n36: \n37: import argparse\n38: import itertools\n39: import json\n40: \n41: from . import config, policy, run_common\n42: from .config import CostTracker\n43: from .harness import judge_safe as judge  # never let one flaky judgement abort the sweep\n44: from .models import resolve\n45: from .rubric import RubricItem, load_rubric\n46: \n47: LEAK_THRESHOLD = 0.5      # a null earning >=50% of a positive item's points = leak\n48: NULL_HACK_SCORE = 0.30    # a null scoring above this is a reward-hacking suspect\n49: \n50: \n51: # --- shared dispersion analysis (cross-model and self-consistency) ----------\n52: def _agreement(items: list[RubricItem], runs: list[dict]) -> dict:\n53:     \"\"\"Per-item dispersion across a set of scorecards (binarized at 0.5).\"\"\"\n54:     per_item = []\n55:     for it in items:\n56:         fracs = [r[\"per_item\"][it.id][\"fraction\"] for r in runs]\n57:         binar = [1 if f >= 0.5 else 0 for f in fracs]\n58:         per_item.append({\n59:             \"id\": it.id, \"criterion\": it.criterion,\n60:             \"mean\": round(sum(fracs) / len(fracs), 3),\n61:             \"stdev\": round(run_common.stdev(fracs), 3),\n62:             \"unanimous\": len(set(binar)) == 1,\n63:         })\n64:     totals = [r[\"normalized\"] for r in runs]\n65:     frac_unanimous = sum(1 for p in per_item if p[\"unanimous\"]) / len(per_item)\n66:     return {\n67:         \"total_scores\": [round(t, 3) for t in totals],\n68:         \"total_mean\": round(sum(totals) / len(totals), 3),\n69:         \"total_stdev\": round(run_common.stdev(totals), 3),\n70:         \"frac_items_unanimous\": round(frac_unanimous, 3),\n71:         \"mean_item_stdev\": round(sum(p[\"stdev\"] for p in per_item) / len(per_item), 3),\n72:         \"most_contested\": sorted(per_item, key=lambda p: -p[\"stdev\"])[:8],\n73:     }\n74: \n75: \n76: def _leaks(items: list[RubricItem], null_runs: list[dict]) -> list[dict]:\n77:     \"\"\"Positive items a do-nothing null still earns >= threshold (form/presence rewards).\"\"\"\n78:     out = []\n79:     for it in items:\n80:         if it.max_score <= 0:\n81:             continue  # penalties aren't \"passed\" by doing nothing\n82:         null_max = max((r[\"per_item\"][it.id][\"fraction\"] for r in null_runs), default=0.0)\n83:         if null_max >= LEAK_THRESHOLD:\n84:             out.append({\"id\": it.id, \"criterion\": it.criterion,\n85:                         \"null_fraction\": round(null_max, 2)})\n86:     return out\n87: \n88: \n89: # --- judge mode -------------------------------------------------------------\n90: def run_judge(tasks, subjects_arg, judge_keys, repeats, self_key, temperature, verbose):\n91:     judges = resolve(judge_keys)\n92:     self_model = resolve([self_key])[0] if self_key else judges[0]\n93:     report: dict = {}\n94:     score_rows, cons_rows = [], []\n95: \n96:     for tf in tasks:\n97:         subjects = subjects_arg or run_common.available_subjects(tf)\n98:         if not subjects:\n99:             print(f\"skip {tf}: no subjects (no gold/nulls; pass --subjects)\"); continue\n100:         print(f\"\\n=== {tf} ===  subjects={subjects}\")\n101:         task = run_common.load_task(tf)\n102:         items = load_rubric(tf)\n103:         report[tf] = {\"subjects\": {}}\n104: \n105:         # matrix[subject][judge_key] = base run (T=0); matrix[subject]['_self'] = repeats\n106:         matrix: dict[str, dict] = {}\n107:         for subj in subjects:\n108:             try:\n109:                 bundle = run_common.resolve_subject(tf, subj)\n110:             except SystemExit as e:\n111:                 print(f\"  skip subject {subj}: {e}\"); continue\n112:             print(f\"  -- subject '{subj}' ({len(bundle.files)} files)\")\n113:             base = {}\n114:             for m in judges:\n115:                 r = judge(m, bundle, items, task[\"prompt\"], temperature=0.0, verbose=verbose)\n116:                 base[m.key] = r\n117:                 vo = r.get(\"normalized_verifiable_only\", r[\"normalized\"])\n118:                 flags = \"\"\n119:                 if not r.get(\"valid\", True):\n120:                     flags += f\" INVALID(scored {r.get('n_items_scored', 0)}/{len(items)})\"\n121:                 if r.get(\"penalty_floored\"):\n122:                     flags += \" PENALTY-FLOORED\"\n123:                 if r.get(\"error\"):\n124:                     flags += f\" ERROR({r['error'][:40]})\"\n125:                 print(f\"     [{m.key}] score={r['normalized']:.2f} \"\n126:                       f\"(verifiable-only={vo:.2f}, unverifiable={r.get('n_unverifiable', 0)}){flags}\")\n127:                 score_rows.append([tf, subj, m.key, round(r[\"normalized\"], 3),\n128:                                    round(vo, 3), r.get(\"n_unverifiable\", 0), len(items),\n129:                                    r.get(\"valid\", True), r.get(\"penalty_floored\", False)])\n130:             self_runs = []\n131:             if repeats > 1:\n132:                 self_runs = [judge(self_model, bundle, items, task[\"prompt\"],\n133:                                    temperature=temperature, verbose=verbose)\n134:                              for _ in range(repeats)]\n135:             matrix[subj] = {\"base\": base, \"self\": self_runs}\n136:             report[tf][\"subjects\"][subj] = {\n137:                 \"is_null\": run_common.is_null_subject(tf, subj),\n138:                 \"base\": base,\n139:             }\n140: \n141:         # ---- derive: self-consistency (per subject) ----\n142:         if repeats > 1:\n143:             for subj, cell in matrix.items():\n144:                 if not cell[\"self\"]:\n145:                     continue\n146:                 ag = _agreement(items, cell[\"self\"])\n147:                 report[tf][\"subjects\"][subj][\"self_consistency\"] = {\n148:                     \"model\": self_model.key, \"repeats\": repeats, \"temperature\": temperature, **ag}\n149:                 print(f\"  self-consistency [{self_model.key} x{repeats}] on '{subj}': \"\n150:                       f\"scores={ag['total_scores']} stdev={ag['total_stdev']} \"\n151:                       f\"unanimous={ag['frac_items_unanimous']:.0%}\")\n152:                 cons_rows.append([tf, subj, \"self\", f\"{self_model.key}x{repeats}\",\n153:                                   ag[\"total_mean\"], ag[\"total_stdev\"],\n154:                                   ag[\"frac_items_unanimous\"], ag[\"mean_item_stdev\"]])\n155: \n156:         # ---- derive: cross-model consistency (per subject) ----\n157:         if len(judges) > 1:\n158:             for subj, cell in matrix.items():\n159:                 runs = list(cell[\"base\"].values())\n160:                 ag = _agreement(items, runs)\n161:                 scores = {k: round(r[\"normalized\"], 3) for k, r in cell[\"base\"].items()}\n162:                 pair = {f\"{a}-{b}\": round(abs(scores[a] - scores[b]), 3)\n163:                         for a, b in itertools.combinations(scores, 2)}\n164:                 report[tf][\"subjects\"][subj][\"cross_model\"] = {\n165:                     \"models\": list(scores), \"scores\": scores, \"pairwise_gap\": pair, **ag}\n166:                 print(f\"  cross-model on '{subj}': scores={scores} \"\n167:                       f\"stdev={ag['total_stdev']} unanimous={ag['frac_items_unanimous']:.0%}\")\n168:                 cons_rows.append([tf, subj, \"cross\", \"+\".join(scores),\n169:                                   ag[\"total_mean\"], ag[\"total_stdev\"],\n170:                                   ag[\"frac_items_unanimous\"], ag[\"mean_item_stdev\"]])\n171: \n172:         # ---- derive: boundary calibration (per judge, needs gold + a null) ----\n173:         nulls = [s for s in matrix if report[tf][\"subjects\"][s][\"is_null\"]]\n174:         if \"gold\" in matrix and nulls:\n175:             report[tf][\"boundary\"] = {}\n176:             for m in judges:\n177:                 gold_r = matrix[\"gold\"][\"base\"][m.key]\n178:                 null_runs = [matrix[s][\"base\"][m.key] for s in nulls]\n179:                 worst_null = max((r[\"normalized\"] for r in null_runs), default=0.0)\n180:                 gap = gold_r[\"normalized\"] - worst_null\n181:                 leaks = _leaks(items, null_runs)\n182:                 report[tf][\"boundary\"][m.key] = {\n183:                     \"gold\": round(gold_r[\"normalized\"], 3),\n184:                     \"worst_null\": round(worst_null, 3), \"gap\": round(gap, 3),\n185:                     \"leaks\": leaks}\n186:                 print(f\"  boundary [{m.key}]: gold={gold_r['normalized']:.2f} \"\n187:                       f\"worst_null={worst_null:.2f} gap={gap:+.2f} leaks={len(leaks)}\")\n188: \n189:     _write_outputs(report, score_rows, cons_rows)\n190:     print(CostTracker.summary())\n191: \n192: \n193: def _hack_flag(report, tf, subj, judge_key, norm) -> str:\n194:     \"\"\"Mark reward-hacking suspects: leaks on gold, or a null scoring too high.\"\"\"\n195:     is_null = report[tf][\"subjects\"][subj][\"is_null\"]\n196:     if is_null and norm > NULL_HACK_SCORE:\n197:         return \"null-scores-high\"\n198:     if subj == \"gold\":\n199:         n = len(report.get(tf, {}).get(\"boundary\", {}).get(judge_key, {}).get(\"leaks\", []))\n200:         if n:\n201:             return f\"{n}-leaks\"\n202:     return \"\"\n203: \n204: \n205: def _write_outputs(report, score_rows, cons_rows):\n206:     out_json = config.RESULTS / \"scorecard.json\"\n207:     out_json.write_text(json.dumps(report, indent=2))\n208:     print(f\"\\nwrote {out_json.relative_to(config.ROOT)}\")\n209: \n210:     # annotate score rows with boundary gap + reward-hack flag\n211:     full_rows = []\n212:     for r in score_rows:\n213:         tf, subj, jk, norm = r[0], r[1], r[2], r[3]\n214:         gap = \"\"\n215:         if subj == \"gold\":\n216:             b = report.get(tf, {}).get(\"boundary\", {}).get(jk)\n217:             if b:\n218:                 gap = b[\"gap\"]\n219:         full_rows.append(r + [gap, _hack_flag(report, tf, subj, jk, norm)])\n220: \n221:     run_common.write_tsv(\n222:         config.RESULTS / \"scorecard.tsv\",\n223:         [\"task\", \"subject\", \"judge\", \"score\", \"verifiable_only\", \"n_unverifiable\",\n224:          \"n_items\", \"valid\", \"penalty_floored\", \"gold_gap\", \"reward_hack_flag\"],\n225:         full_rows)\n226:     if cons_rows:\n227:         run_common.write_tsv(\n228:             config.RESULTS / \"consistency.tsv\",\n229:             [\"task\", \"subject\", \"kind\", \"judges\", \"mean_score\", \"score_stdev\",\n230:              \"frac_unanimous\", \"mean_item_stdev\"],\n231:             cons_rows)\n232: \n233: \n234: # --- rollout mode -----------------------------------------------------------\n235: def run_rollout(tasks, policy_keys, verbose, force=False):\n236:     policies = resolve(policy_keys)\n237:     rows = []\n238:     for tf in tasks:\n239:         print(f\"\\n=== {tf} ===\")\n240:         for m in policies:\n241:             try:\n242:                 res = policy.rollout(m, tf, verbose=verbose, force=force)\n243:             except Exception as e:  # one model/task failing must not abort the batch\n244:                 print(f\"  [{m.key}] {tf}: ERROR -> {str(e)[:160]}\")\n245:                 rows.append([tf, m.key, False, 0, f\"(error: {str(e)[:80]})\"])\n246:                 continue\n247:             rows.append([tf, m.key, res[\"submitted\"], res[\"rounds\"],\n248:                          \"|\".join(res[\"deliverable_files\"]) or \"(none)\"])\n249:     run_common.write_tsv(\n250:         config.RESULTS / \"rollouts.tsv\",\n251:         [\"task\", \"policy\", \"submitted\", \"rounds\", \"deliverable_files\"],\n252:         rows)\n253:     print(CostTracker.summary())\n254:     print(\"\\nGrade them with, e.g.:\")\n255:     print(f\"  python -m eval.run --mode judge --subjects rollout:{policies[0].key} \"\n256:           f\"--judge-models {' '.join(policy_keys)}\")\n257: \n258: \n259: # --- CLI --------------------------------------------------------------------\n260: def main():\n\n(Showing lines 1-260 of 297. Use offset=261 to continue.)\n</content>",
+            "metadata": {
+              "preview": "\"\"\"Unified eval runner — one entrypoint for the rubric scorecard.\n\nTwo modes, selected with --mode:\n\n  rollout   Have policy model(s) attempt the real GDPval tasks and produce actual\n            deliverables (eval.policy). These become gradeable subjects.\n\n  judge     Grade one or more SUBJECTS per task against the rubric, then derive the\n            axes from a single judging matrix:\n              * Boundary calibration (Axis 1): gold should score ~1, nulls ~0; we\n                report the gold-null gap and \"leaks\" (null passing a positive item).\n              * Cross-model consistency (Axis 3): when >=2 --judge-models grade the\n                same subject, do they agree?\n              * Self-consistency (Axis 3): when --repeats > 1, one judge re-grades the\n                same subject; do the scores reproduce?\n\nA subject is named on the CLI: `gold`, a null variant (`blank`, `unedited_input`),\n`rollout:<policy_key>`, or `preexisting:<path>`. Default subjects are gold + nulls\n(the boundary anchors).\n",
+              "truncated": true,
+              "loaded": [],
+              "display": {
+                "type": "file",
+                "path": "/Users/albert/Projects/philo/eval/run.py",
+                "text": "\"\"\"Unified eval runner — one entrypoint for the rubric scorecard.\n\nTwo modes, selected with --mode:\n\n  rollout   Have policy model(s) attempt the real GDPval tasks and produce actual\n            deliverables (eval.policy). These become gradeable subjects.\n\n  judge     Grade one or more SUBJECTS per task against the rubric, then derive the\n            axes from a single judging matrix:\n              * Boundary calibration (Axis 1): gold should score ~1, nulls ~0; we\n                report the gold-null gap and \"leaks\" (null passing a positive item).\n              * Cross-model consistency (Axis 3): when >=2 --judge-models grade the\n                same subject, do they agree?\n              * Self-consistency (Axis 3): when --repeats > 1, one judge re-grades the\n                same subject; do the scores reproduce?\n\nA subject is named on the CLI: `gold`, a null variant (`blank`, `unedited_input`),\n`rollout:<policy_key>`, or `preexisting:<path>`. Default subjects are gold + nulls\n(the boundary anchors).\n\nExamples:\n  # boundary + cross-model in one shot (3 judges, all gold tasks):\n  python -m eval.run --mode judge --judge-models gpt-mini qwen-vl gemini-lite\n\n  # add self-consistency (one judge, 5 repeats) on a single task:\n  python -m eval.run --mode judge --tasks private_detectives_and_investigators__57b2cdf2 \\\n      --judge-models qwen-vl --repeats 5 --temperature 0.7\n\n  # consistency OFF (single judge, single pass) on a rollout you generated:\n  python -m eval.run --mode judge --subjects rollout:gpt-mini --judge-models gpt-mini\n\n  # generate rollouts first:\n  python -m eval.run --mode rollout --policy-models gpt-mini --tasks <folder>\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport itertools\nimport json\n\nfrom . import config, policy, run_common\nfrom .config import CostTracker\nfrom .harness import judge_safe as judge  # never let one flaky judgement abort the sweep\nfrom .models import resolve\nfrom .rubric import RubricItem, load_rubric\n\nLEAK_THRESHOLD = 0.5      # a null earning >=50% of a positive item's points = leak\nNULL_HACK_SCORE = 0.30    # a null scoring above this is a reward-hacking suspect\n\n\n# --- shared dispersion analysis (cross-model and self-consistency) ----------\ndef _agreement(items: list[RubricItem], runs: list[dict]) -> dict:\n    \"\"\"Per-item dispersion across a set of scorecards (binarized at 0.5).\"\"\"\n    per_item = []\n    for it in items:\n        fracs = [r[\"per_item\"][it.id][\"fraction\"] for r in runs]\n        binar = [1 if f >= 0.5 else 0 for f in fracs]\n        per_item.append({\n            \"id\": it.id, \"criterion\": it.criterion,\n            \"mean\": round(sum(fracs) / len(fracs), 3),\n            \"stdev\": round(run_common.stdev(fracs), 3),\n            \"unanimous\": len(set(binar)) == 1,\n        })\n    totals = [r[\"normalized\"] for r in runs]\n    frac_unanimous = sum(1 for p in per_item if p[\"unanimous\"]) / len(per_item)\n    return {\n        \"total_scores\": [round(t, 3) for t in totals],\n        \"total_mean\": round(sum(totals) / len(totals), 3),\n        \"total_stdev\": round(run_common.stdev(totals), 3),\n        \"frac_items_unanimous\": round(frac_unanimous, 3),\n        \"mean_item_stdev\": round(sum(p[\"stdev\"] for p in per_item) / len(per_item), 3),\n        \"most_contested\": sorted(per_item, key=lambda p: -p[\"stdev\"])[:8],\n    }\n\n\ndef _leaks(items: list[RubricItem], null_runs: list[dict]) -> list[dict]:\n    \"\"\"Positive items a do-nothing null still earns >= threshold (form/presence rewards).\"\"\"\n    out = []\n    for it in items:\n        if it.max_score <= 0:\n            continue  # penalties aren't \"passed\" by doing nothing\n        null_max = max((r[\"per_item\"][it.id][\"fraction\"] for r in null_runs), default=0.0)\n        if null_max >= LEAK_THRESHOLD:\n            out.append({\"id\": it.id, \"criterion\": it.criterion,\n                        \"null_fraction\": round(null_max, 2)})\n    return out\n\n\n# --- judge mode -------------------------------------------------------------\ndef run_judge(tasks, subjects_arg, judge_keys, repeats, self_key, temperature, verbose):\n    judges = resolve(judge_keys)\n    self_model = resolve([self_key])[0] if self_key else judges[0]\n    report: dict = {}\n    score_rows, cons_rows = [], []\n\n    for tf in tasks:\n        subjects = subjects_arg or run_common.available_subjects(tf)\n        if not subjects:\n            print(f\"skip {tf}: no subjects (no gold/nulls; pass --subjects)\"); continue\n        print(f\"\\n=== {tf} ===  subjects={subjects}\")\n        task = run_common.load_task(tf)\n        items = load_rubric(tf)\n        report[tf] = {\"subjects\": {}}\n\n        # matrix[subject][judge_key] = base run (T=0); matrix[subject]['_self'] = repeats\n        matrix: dict[str, dict] = {}\n        for subj in subjects:\n            try:\n                bundle = run_common.resolve_subject(tf, subj)\n            except SystemExit as e:\n                print(f\"  skip subject {subj}: {e}\"); continue\n            print(f\"  -- subject '{subj}' ({len(bundle.files)} files)\")\n            base = {}\n            for m in judges:\n                r = judge(m, bundle, items, task[\"prompt\"], temperature=0.0, verbose=verbose)\n                base[m.key] = r\n                vo = r.get(\"normalized_verifiable_only\", r[\"normalized\"])\n                flags = \"\"\n                if not r.get(\"valid\", True):\n                    flags += f\" INVALID(scored {r.get('n_items_scored', 0)}/{len(items)})\"\n                if r.get(\"penalty_floored\"):\n                    flags += \" PENALTY-FLOORED\"\n                if r.get(\"error\"):\n                    flags += f\" ERROR({r['error'][:40]})\"\n                print(f\"     [{m.key}] score={r['normalized']:.2f} \"\n                      f\"(verifiable-only={vo:.2f}, unverifiable={r.get('n_unverifiable', 0)}){flags}\")\n                score_rows.append([tf, subj, m.key, round(r[\"normalized\"], 3),\n                                   round(vo, 3), r.get(\"n_unverifiable\", 0), len(items),\n                                   r.get(\"valid\", True), r.get(\"penalty_floored\", False)])\n            self_runs = []\n            if repeats > 1:\n                self_runs = [judge(self_model, bundle, items, task[\"prompt\"],\n                                   temperature=temperature, verbose=verbose)\n                             for _ in range(repeats)]\n            matrix[subj] = {\"base\": base, \"self\": self_runs}\n            report[tf][\"subjects\"][subj] = {\n                \"is_null\": run_common.is_null_subject(tf, subj),\n                \"base\": base,\n            }\n\n        # ---- derive: self-consistency (per subject) ----\n        if repeats > 1:\n            for subj, cell in matrix.items():\n                if not cell[\"self\"]:\n                    continue\n                ag = _agreement(items, cell[\"self\"])\n                report[tf][\"subjects\"][subj][\"self_consistency\"] = {\n                    \"model\": self_model.key, \"repeats\": repeats, \"temperature\": temperature, **ag}\n                print(f\"  self-consistency [{self_model.key} x{repeats}] on '{subj}': \"\n                      f\"scores={ag['total_scores']} stdev={ag['total_stdev']} \"\n                      f\"unanimous={ag['frac_items_unanimous']:.0%}\")\n                cons_rows.append([tf, subj, \"self\", f\"{self_model.key}x{repeats}\",\n                                  ag[\"total_mean\"], ag[\"total_stdev\"],\n                                  ag[\"frac_items_unanimous\"], ag[\"mean_item_stdev\"]])\n\n        # ---- derive: cross-model consistency (per subject) ----\n        if len(judges) > 1:\n            for subj, cell in matrix.items():\n                runs = list(cell[\"base\"].values())\n                ag = _agreement(items, runs)\n                scores = {k: round(r[\"normalized\"], 3) for k, r in cell[\"base\"].items()}\n                pair = {f\"{a}-{b}\": round(abs(scores[a] - scores[b]), 3)\n                        for a, b in itertools.combinations(scores, 2)}\n                report[tf][\"subjects\"][subj][\"cross_model\"] = {\n                    \"models\": list(scores), \"scores\": scores, \"pairwise_gap\": pair, **ag}\n                print(f\"  cross-model on '{subj}': scores={scores} \"\n                      f\"stdev={ag['total_stdev']} unanimous={ag['frac_items_unanimous']:.0%}\")\n                cons_rows.append([tf, subj, \"cross\", \"+\".join(scores),\n                                  ag[\"total_mean\"], ag[\"total_stdev\"],\n                                  ag[\"frac_items_unanimous\"], ag[\"mean_item_stdev\"]])\n\n        # ---- derive: boundary calibration (per judge, needs gold + a null) ----\n        nulls = [s for s in matrix if report[tf][\"subjects\"][s][\"is_null\"]]\n        if \"gold\" in matrix and nulls:\n            report[tf][\"boundary\"] = {}\n            for m in judges:\n                gold_r = matrix[\"gold\"][\"base\"][m.key]\n                null_runs = [matrix[s][\"base\"][m.key] for s in nulls]\n                worst_null = max((r[\"normalized\"] for r in null_runs), default=0.0)\n                gap = gold_r[\"normalized\"] - worst_null\n                leaks = _leaks(items, null_runs)\n                report[tf][\"boundary\"][m.key] = {\n                    \"gold\": round(gold_r[\"normalized\"], 3),\n                    \"worst_null\": round(worst_null, 3), \"gap\": round(gap, 3),\n                    \"leaks\": leaks}\n                print(f\"  boundary [{m.key}]: gold={gold_r['normalized']:.2f} \"\n                      f\"worst_null={worst_null:.2f} gap={gap:+.2f} leaks={len(leaks)}\")\n\n    _write_outputs(report, score_rows, cons_rows)\n    print(CostTracker.summary())\n\n\ndef _hack_flag(report, tf, subj, judge_key, norm) -> str:\n    \"\"\"Mark reward-hacking suspects: leaks on gold, or a null scoring too high.\"\"\"\n    is_null = report[tf][\"subjects\"][subj][\"is_null\"]\n    if is_null and norm > NULL_HACK_SCORE:\n        return \"null-scores-high\"\n    if subj == \"gold\":\n        n = len(report.get(tf, {}).get(\"boundary\", {}).get(judge_key, {}).get(\"leaks\", []))\n        if n:\n            return f\"{n}-leaks\"\n    return \"\"\n\n\ndef _write_outputs(report, score_rows, cons_rows):\n    out_json = config.RESULTS / \"scorecard.json\"\n    out_json.write_text(json.dumps(report, indent=2))\n    print(f\"\\nwrote {out_json.relative_to(config.ROOT)}\")\n\n    # annotate score rows with boundary gap + reward-hack flag\n    full_rows = []\n    for r in score_rows:\n        tf, subj, jk, norm = r[0], r[1], r[2], r[3]\n        gap = \"\"\n        if subj == \"gold\":\n            b = report.get(tf, {}).get(\"boundary\", {}).get(jk)\n            if b:\n                gap = b[\"gap\"]\n        full_rows.append(r + [gap, _hack_flag(report, tf, subj, jk, norm)])\n\n    run_common.write_tsv(\n        config.RESULTS / \"scorecard.tsv\",\n        [\"task\", \"subject\", \"judge\", \"score\", \"verifiable_only\", \"n_unverifiable\",\n         \"n_items\", \"valid\", \"penalty_floored\", \"gold_gap\", \"reward_hack_flag\"],\n        full_rows)\n    if cons_rows:\n        run_common.write_tsv(\n            config.RESULTS / \"consistency.tsv\",\n            [\"task\", \"subject\", \"kind\", \"judges\", \"mean_score\", \"score_stdev\",\n             \"frac_unanimous\", \"mean_item_stdev\"],\n            cons_rows)\n\n\n# --- rollout mode -----------------------------------------------------------\ndef run_rollout(tasks, policy_keys, verbose, force=False):\n    policies = resolve(policy_keys)\n    rows = []\n    for tf in tasks:\n        print(f\"\\n=== {tf} ===\")\n        for m in policies:\n            try:\n                res = policy.rollout(m, tf, verbose=verbose, force=force)\n            except Exception as e:  # one model/task failing must not abort the batch\n                print(f\"  [{m.key}] {tf}: ERROR -> {str(e)[:160]}\")\n                rows.append([tf, m.key, False, 0, f\"(error: {str(e)[:80]})\"])\n                continue\n            rows.append([tf, m.key, res[\"submitted\"], res[\"rounds\"],\n                         \"|\".join(res[\"deliverable_files\"]) or \"(none)\"])\n    run_common.write_tsv(\n        config.RESULTS / \"rollouts.tsv\",\n        [\"task\", \"policy\", \"submitted\", \"rounds\", \"deliverable_files\"],\n        rows)\n    print(CostTracker.summary())\n    print(\"\\nGrade them with, e.g.:\")\n    print(f\"  python -m eval.run --mode judge --subjects rollout:{policies[0].key} \"\n          f\"--judge-models {' '.join(policy_keys)}\")\n\n\n# --- CLI --------------------------------------------------------------------\ndef main():",
+                "lineStart": 1,
+                "lineEnd": 260,
+                "totalLines": 297,
+                "truncated": true
+              }
+            },
+            "title": "eval/run.py",
+            "time": {
+              "start": 1782770832422,
+              "end": 1782770832436
+            }
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "fc_0bd551cf1838cef3016a42ec9049b88199ba3838cccbb70c26"
+            }
+          },
+          "id": "prt_f156c13ec001p4SoYcl8xIElVP",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c084e0018hn0FiI3D76wSd"
+        },
+        {
+          "reason": "tool-calls",
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-finish",
+          "tokens": {
+            "total": 13811,
+            "input": 7769,
+            "output": 39,
+            "reasoning": 115,
+            "cache": {
+              "write": 0,
+              "read": 5888
+            }
+          },
+          "cost": 0.01678215,
+          "id": "prt_f156c1464001IdKMcR4QJcYr6G",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c084e0018hn0FiI3D76wSd"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_f156bf539001kOv3eI7qbJ2QvA",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/Users/albert/Projects/philo",
+          "root": "/Users/albert/Projects/philo"
+        },
+        "cost": 0.0136318,
+        "tokens": {
+          "total": 17813,
+          "input": 3788,
+          "output": 70,
+          "reasoning": 259,
+          "cache": {
+            "write": 0,
+            "read": 13696
+          }
+        },
+        "modelID": "gpt-5.3-codex",
+        "providerID": "openai",
+        "time": {
+          "created": 1782770832529,
+          "completed": 1782770837904
+        },
+        "finish": "tool-calls",
+        "id": "msg_f156c1491001U24mVF4A9fS0yL",
+        "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB"
+      },
+      "parts": [
+        {
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-start",
+          "id": "prt_f156c160200174zC41zlXmm4oe",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c1491001U24mVF4A9fS0yL"
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "time": {
+            "start": 1782770833083,
+            "end": 1782770837634
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "rs_0b0b9ac86f75c038016a42ec9114488198924aecd8a4d1c5dc",
+              "reasoningEncryptedContent": "gAAAAABqQuyVWt5kNOezkEKenhMmMPDouEtrnQ3g4_WsI6Lprwi24UjaLhGAMsRdqoO6tSxieLvHW8vxzV3WGFXV4pId3uby8snlvf7_9CzwWcCxvn9NJbM-P_Q6piAGfEWrpWyuTyWmUaMVIzH_DW983E4_opHpo8uYX9skpTOvx-REn73RpMeKdaRNYgdaNCqGQ_SLnuOlseoLyTj3z98l8GS8WkmrUqjH0nY5lmX8PTfsy5dRLAZfJsA3zUyB6TSARlw7MWGAz-T0fxlfhXXP1slsJ5CPZ-a_bFxl2rNDaokE67r1G9d6GLpjRnVPSE_r8O8iNXbDTV91YQr7UEoHQkOLWp_aF7n2-Wc6nQQ2SvnvQjbgqdV0UTz57gY74GQgwcszs2r07xDC_cegt_ti5ihKfVKw04e-U6G_TgdjdDfyy531wcoxDmzJSlhMn7GOEP15Cv7DaAB8UDpRNV9qELOfKtU4M1MUC1A9ZlnBetQAdLqntr89rjrjQEA0bclr-LPzKvDeZqwRXV9lo3pvkmINsawu2BehIz4K9WsUH-dV0_yU6TeiPKWo1CYmNDLlduVjmqsdzqq-ykq7LZepJXkntuDoH1GpDGgbZfLnJ8XzU6Cf6TrnruCGzMcnuvp_eyyJlpTTbc6M5NKPqGqo7S32plHQrs4KasUjUVqQuLTpSI7w4ElEcWO_ElR0g8T2zmOw78kCvgP7XUHMrR4AwbyJXB1R7vkUn_IRSfpcXm93iMNGtqPiaCWmtgW1ksZN-gpOiOIj_ri_8J9n6d9NhYjsveOUkQjBpb1wfYbAeLeRzPxLKjD7I9Zaf3wfch0d-3xMFrbhfLbaw3XYJL0v9S7a2YBaKXa3UWR-0OJP0UW6TVmLN-6UKc-8s-JgkyzvYvix2LKamBvBS5I-soAc6KLd3hbZlgwcQs_-fdWRS19XNruQ9OnRB9dHIrYqYTPD6iauef0nrl8A_ivDOTW2ewqkBKBS5VNKDJmAGk9I4I_kEHOzAHfTd5PgQr4cPThwfnA38oRUW10F9-3jBp6jizQrwlgeAEMNFiq9AWCD8027cDaQG5bm3VTs58IycqkBxkGfC_5tz7pWIWN3QuOI0NWc9iVjZpDQ3AdgNdvIlWFsKCWVWMBogmegyA26gndmN6P4e3oYc35TyFIEJs0bZiRm3mVpSkLWK8hmWosX8D8ft0cJ_j8DKxG-mCZFhLQvJBDJw__wYrMU7xgtj49T2z0Mrn_kW2diGinjz3u0tFftiUphAd_Ril2TTgI2DQfCJ3NIqSvcrwhA-ahBSsLTWJpYg5fKsAlLEuXRVCVHqWTZbL5sR_7WyyJYup3gbrOIoFJ0uRR4ILq9bAmIwlZ2heAdVDUQmYDquWPyjSFCF90A42h7PKOMaqg-VPq-jNYwKok7A_pesqLu1U6nPCNyUql18MxveBAPsrmeMox3PPn7CEIjWT5ALJa9u8fX6fv0njq3EL9j-ffp944ixlgw5hFMUFBSv6jtCHMVWyYrSgivX_aQvxnq7JXI1JEvBS6xEphbYRTcaNQOIIcI_zHVbrKVXzLvvewcWdHamsPqHMkqSgcMuMB3FyahtLIylHhimcLuVJAXaZ0pTwj4IZU_c3H6f6ALV9AqBZSu_he-It-rgddYZm3MH3XI8mcmAFC15g0qyca3yGNC_ud0xranvCy5EeDHRjwePpNJOlT-n59HYtKCIgGvdyLYT6084pIDOeDuFp8tZ6Jo_XFL7Ct__sxg2ODyLcdfn7wwwx8iEWTz-YQqLAR_2pFz_yXWjbkg06mQ8iH9My6ttrOvLJ2kcEwfgEf4cFopabesGRI6geUGZ8S5pOkrpYoCWPwJWDJ8MOZTAHk-6_8zBdDz1NsbSHXxyuE2I4sIGq-sgrEOJgkZR9XKDso9T-TuEPaVZB6AmERc86egOCWH65sXvM7wD8ed2vhY-CRAEa67qaRixK8tOv3AWX2DfI9tt9yKB4SkfbXR5utQK-4blEMDojBH1iOWWLznloEKVqJEAE6wg8u3vRVpGAuT4ydlCKzrLy1qAxAaxtauel0C3Irm2EF5Mno_4uv-PaKlEm0K8LNLK4T9RJy0Y6YqEmgNdUg0LR1vB3HnjZB13R6w6187WEC_3qhaJPRNSRCEE3jntldegia0W9nZzT-TKf7MDPt9G6RUpbZ3QnY_5uhnV6iQo02sUfX95HvLJgnrhUzMjKGmPi3DxS5EGyOWXepQS7oQCxV8ZtAvBECTzC75QlAa6w-uSs6-XGFyInYz6ub6VHHY62ag1Z9OHzjJIqCTRBt8VVeGMFPqJh16fAcP9nl7yQ0yNXM0afM3IzRdjDXDeDs7gYHTfuJA-ocdYQfY--DYYNC_TRF-mL-P-hkvBQZfNCDHcyGvl8hKa90Tpy68gS-5yqvbUikLa24bjRGN_ahCdVP7M31oN7A2hoVxxXAC8bhfxNl6n8XMSjnmixSK0WDe5zyIkFEYkrDMCIlSwha8kJktTD7Gcc5xN7TNU3cHIbDpYgHm5av3zfg8naIemKSHKB5ukkk0e4M94n-CGCHlGyQbNFTwLg9srBYIsgkZ_Nt6omjwAOfLxOPNtXvlG8vYBmWg0MAWDrAFhJ4oOWmCBHcOFigk_1eRVbzw8q0DfGtewjPCyBzfpdBYNgW7mJ6dMCvUpE-HU_H7HuYzI9e_idZZz516Knak4LExTML9sskEv74MzJmIqoR3jkcgIrS1LGHjv1EnsTqbdld6HCoKHzw5Dx3aJKxv1HLyrrDFfP1E8Og9K1nfVe90gSJwd-5qsnI3zAMK7Bw="
+            }
+          },
+          "id": "prt_f156c16bb0015kbODtuH71d1Wr",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c1491001U24mVF4A9fS0yL"
+        },
+        {
+          "type": "tool",
+          "tool": "grep",
+          "callID": "call_6Cf9Z6MsdSqnX0cFAfusDtNh",
+          "state": {
+            "status": "completed",
+            "input": {
+              "pattern": "consistency.tsv|frac_unanimous|mean_item_stdev|kind\\s*=\\s*\"cross\"|kind\\s*=\\s*\"self\"",
+              "path": "/Users/albert/Projects/philo",
+              "include": "*.py"
+            },
+            "output": "Found 7 matches\n/Users/albert/Projects/philo/eval/run.py:\n  Line 65:     frac_unanimous = sum(1 for p in per_item if p[\"unanimous\"]) / len(per_item)\n\n  Line 70:         \"frac_items_unanimous\": round(frac_unanimous, 3),\n\n  Line 71:         \"mean_item_stdev\": round(sum(p[\"stdev\"] for p in per_item) / len(per_item), 3),\n\n  Line 154:                                   ag[\"frac_items_unanimous\"], ag[\"mean_item_stdev\"]])\n\n  Line 170:                                   ag[\"frac_items_unanimous\"], ag[\"mean_item_stdev\"]])\n\n  Line 228:             config.RESULTS / \"consistency.tsv\",\n\n  Line 230:              \"frac_unanimous\", \"mean_item_stdev\"],\n",
+            "metadata": {
+              "matches": 7,
+              "truncated": false
+            },
+            "title": "consistency.tsv|frac_unanimous|mean_item_stdev|kind\\s*=\\s*\"cross\"|kind\\s*=\\s*\"self\"",
+            "time": {
+              "start": 1782770837805,
+              "end": 1782770837819
+            }
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "fc_0b0b9ac86f75c038016a42ec95a17c8198bdbdc32c94f5b72d"
+            }
+          },
+          "id": "prt_f156c2886001pNUjPYgfaf56Lw",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c1491001U24mVF4A9fS0yL"
+        },
+        {
+          "reason": "tool-calls",
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-finish",
+          "tokens": {
+            "total": 17813,
+            "input": 3788,
+            "output": 70,
+            "reasoning": 259,
+            "cache": {
+              "write": 0,
+              "read": 13696
+            }
+          },
+          "cost": 0.0136318,
+          "id": "prt_f156c296a001e5UDDM3Yct2v0a",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c1491001U24mVF4A9fS0yL"
+        }
+      ]
+    },
+    {
+      "info": {
+        "parentID": "msg_f156bf539001kOv3eI7qbJ2QvA",
+        "role": "assistant",
+        "mode": "build",
+        "agent": "build",
+        "path": {
+          "cwd": "/Users/albert/Projects/philo",
+          "root": "/Users/albert/Projects/philo"
+        },
+        "cost": 0.0079177,
+        "tokens": {
+          "total": 18308,
+          "input": 342,
+          "output": 165,
+          "reasoning": 137,
+          "cache": {
+            "write": 0,
+            "read": 17664
+          }
+        },
+        "modelID": "gpt-5.3-codex",
+        "providerID": "openai",
+        "time": {
+          "created": 1782770837905,
+          "completed": 1782770842886
+        },
+        "finish": "stop",
+        "id": "msg_f156c2991001vVzHvgHJPpoh1Q",
+        "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB"
+      },
+      "parts": [
+        {
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-start",
+          "id": "prt_f156c2ae4001WVYSeDazPzxCNF",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c2991001vVzHvgHJPpoh1Q"
+        },
+        {
+          "type": "reasoning",
+          "text": "",
+          "time": {
+            "start": 1782770838502,
+            "end": 1782770841267
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "rs_0fb7b516eb78c3f8016a42ec967c708199a17e095594cccb9e",
+              "reasoningEncryptedContent": "gAAAAABqQuyZQjATbujEfDLSBohDH0fVMkxN5gNyu3dJwHnK64iHt8ZPVD8BoSCNxYVMyIIPeL7cJ4ZMX1mlEO5Q_-MBYQqZiLnRsFZj86fR4jjKiPeWTg6WoOXG82h7ZpekCtrJ1ihSZEG5aDHd2pIZVk609rAXb2sozs-817ip7CtcOknX_T1EZshtufnw7xuphyNYiJDZ6v80iW4XwBj1V7zOIXvuKdHehkPHARHeShYJeUp5lOSPRkiLOKf0oK14vSDOqVzfbqaJw8G4x3RumYwwDshUCj20XZ46RNwDiIkK2Ru5gDpIEQPILFvqY1qCfZihbFY6SzgQfsAh9sROmRA17mDTptxuADaSyU2d-DJ5fBTmDT54nj2qzdEDHmfPNMhcCYEbaocCL3n5JivG5Z6AiKjJQbSRbrpeVkTrllKLEfKK3BmE4545DB1NqrmPNNcocqKMJtIATuOtGaZhx6jRvty5c6qxMBqOszoYVNgJVy_mA-veFKsU4ZMptU8A6_LT6dK-FhaibJrlMhUa0hxjVyLzyLK8JF9w0yuh-zR2MtYjmYhkyes22SCSiGIviakAp94XPgVKAyneqTfFtITuEMwoe2GUsOuI1W3hwcldC24AVPf-JzFFCSTus0k-piLOeSG4vn3Z5BLkILgPIjoVEfw3SbSR_XNuHwJVpP_-UVJmrfqWFxxhp-T8bMWhY0SP2G4mPVt9E_b2XQHIs47aKERuZdx6hAppDEMmT9yvu2x0x6p_lN2G5bs5novUPySCWn_N0pJe8yUMYDb00H9EUQn1mEmheAoglHpX8gnatpoNwTvJVi2W0nua9YoBDli7tiMgKDUMIpNjUyQegyhpVq8G3A-I-SLXDBH2QeEaN9XP7DJQs0nppSl5YLUcDZWtdqzy8B1XA217zm1LzE9nWCkLuSFCctZOIdIWIFhEhTXMEZoiW6_6RdyxvhXhHyUGblDsQqL7y0UBUlAS8r1rqaJKt6yyGJ6tl1guw_WP1UWXkxZt-WxQL3Fkw92Zks0qZV2dzpp2jlx87e8o7kHFEGGR4gyz1q1O0qt2aUhpbf4r8KunkETfjhRDCN4jIAh4LcU9yR9OzesIm7VFGxwF5onCtiIo7g3jc643vfTyTiWoTiBWGpuYlZQ3oMYL7CcBKSW_smf4qoaHV3Gbmu_JZ26VHosTpR8YnsA01wzA6pRxa0Hvy4pyMTMcZai3iylkstJ13kV4ldDEsvsSnKouz6AZetVG55c6cTTqE_EHMlwSKRhm7HDH5NLHjgJniU0KOX6YgC1CB0jGTh8vW3_su_JIXcubMNV811u8Qyb8TpB7e1VpWteSk-Y8jMfLoShNwwkCg13iboT5OEW1Us3PY0AJ8JAtVZ6XHeFN7XF33WAEBkn5ACKkCzNh4FBg6JYgcmurPDMIzn1EywTaMeca6PYEBhCG7DHTjkpT0ngCXnW5XcLuiq70ivUXB8Wbx--v4AZITZ5y5GNPBR5uPJW-XcxOt9skevWeBv4ZrAYljEl1nVDRhMebDS8Gmf3RG-2HgD-bYh2hbg67Ow3AO2UGvJfG6hq6RFrgMwkgHtFRBXD7tlHuD2FgzuS_iy1pG3irXIzcsaKaJgKkRUSBjkvugkSWxORXjrxQTCG3q2nemEprsXAVQ3Z3Cza7zxSE3VsssmUQWp5Tmw_42U2vs3EFk7kdFU3Q_BBe8e8ta8zD063uG_mswZVH_r4aUaRE6uwxzUX4OnZ7LgS-QWs1NFV_ht4vElR8dlr62J7fcNmnVjnIOtb9GEdBOzsx6YHyK6FjA7G2bTiGLR4z1RDdeGSU2A3DEFWawrB1GmMQC_tVR-ZU9bV7DtbhGgTlixWxQYPMvoIl"
+            }
+          },
+          "id": "prt_f156c2be6001jQiqGFqg2nNMJj",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c2991001vVzHvgHJPpoh1Q"
+        },
+        {
+          "type": "text",
+          "text": "You’re right — consistency should mean **same judge, repeated requests** (self-consistency).\n\nRight now the runner computes both:\n- `self` consistency (same judge over multiple repeats) in `eval/run.py:141`\n- `cross` consistency (different judges) in `eval/run.py:157`\n\nSo if we want “consistency” to be the latter you described, we should treat:\n- `kind=self` in `eval/results/consistency.tsv` as the canonical consistency metric\n- `kind=cross` as a separate “cross-model agreement” diagnostic, not the core consistency number\n\nPractically, run with one judge + repeats (e.g. `--judge-models qwen-vl --repeats 5`) to measure the intended thing.",
+          "time": {
+            "start": 1782770841271,
+            "end": 1782770842784
+          },
+          "metadata": {
+            "openai": {
+              "itemId": "msg_0fb7b516eb78c3f8016a42ec99289c8199994a3d9f9e7f466f",
+              "phase": "final_answer"
+            }
+          },
+          "id": "prt_f156c36b7001VzXf4KmBi20FWt",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c2991001vVzHvgHJPpoh1Q"
+        },
+        {
+          "reason": "stop",
+          "snapshot": "c1c447a6f842f54b3a8f6f7e27f375c56fcfdffd",
+          "type": "step-finish",
+          "tokens": {
+            "total": 18308,
+            "input": 342,
+            "output": 165,
+            "reasoning": 137,
+            "cache": {
+              "write": 0,
+              "read": 17664
+            }
+          },
+          "cost": 0.0079177,
+          "id": "prt_f156c3cd90011Hl9sRFOH3ox60",
+          "sessionID": "ses_0ea940ad8ffe5Bh2uUlSG7JdxB",
+          "messageID": "msg_f156c2991001vVzHvgHJPpoh1Q"
+        }
+      ]
+    }
+  ]
+}
